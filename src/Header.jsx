@@ -1,6 +1,6 @@
 function Header(){
     return(
-        <div>
+        <div className="HeaderTitle">
             <h1>NextStop</h1>
         </div>
     );
