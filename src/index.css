@@ -1,7 +1,13 @@
-:root{
-    background-color: black;
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-image: url(HomepageBackground.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
-.HeaderTitle{
-    color: antiquewhite;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
