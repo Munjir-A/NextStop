@@ -21,23 +21,23 @@ li, a, button {
     cursor: pointer;
 }
 header {
-    height: 150px;
+    height: 40px;
     display: flex;  
     justify-content: space-between;
     align-items: center;
     padding: 30px 50px;
-    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.95), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.95), rgba(52, 91, 121, 0.344));
     
 }
 
 header a {
     position: relative;
-    top: -45px;
+    top: -10px;
 }
 
 .HeaderTitle {
     font-family: "Jersey 10";
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .HeaderNavigations {
@@ -46,11 +46,11 @@ header a {
 
 .HeaderNavigations li {
     display: inline-block;
-    padding: 0px 30px;
+    padding: 0px 50px;
 }
 
 .HeaderNavigations li a {
-    font-size: 25px;
+    font-size: 20px;
     transition: all 0.3s ease 0s;
 }
 
@@ -60,9 +60,8 @@ header a {
 }
 
 .Login button{
-    background-color: rgb(78, 147, 172);
-    font-size: 30px;
-    padding: 9px 25px;
+    font-size: 15px;
+    padding: 9px 15px;
     cursor: pointer;
     border-radius: 50px;
     border: none;

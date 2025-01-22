@@ -1,0 +1,25 @@
+.signup{
+    background-color: darkcyan;
+}
+
+.signin{
+    background-color: rgb(29, 62, 68);
+}
+
+/* .sign-in-container {
+    background-color: cadetblue;
+    border-color: aquamarine;
+
+} */
+
+.cl-userButtonBox{
+    background-color:rgb(56, 135, 135);
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+
+}
+.cl-userButtonAvatarBox {
+    height: 40px;
+    width: 40px;
+}

@@ -1,7 +1,8 @@
+import Auth from "../auth";
 function Home(){
     return(
         <header>
-            <a className="HeaderTitle" href="index.html">NextStop</a>
+            <a className="HeaderTitle" href="./">NextStop</a>
             <nav>
                 <ul className="HeaderNavigations">
                     <li><a className="nav" href="about.html">About</a></li>
@@ -9,7 +10,7 @@ function Home(){
                     <li><a className="nav" href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <a className="Login" href="login.html"><button>Login</button></a>
+            <a className="Login"><Auth/></a>
         </header>
 
     );
