@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jersey+10&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jersey+10&display=swap');
 body{
     margin: 0;
     box-sizing: border-box;
@@ -72,6 +71,21 @@ header a {
     background-color: rgba(78, 147, 172, 0.642);
 }
 
+.WelcomeDisplay{
+    margin: 0;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-right: 250px;
+    background-image: linear-gradient(to right, rgba(41, 99, 143, 1), rgba(0, 169, 178, 0.198));
+}
+.WelcomeDisplay a{
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    color: rgb(186, 210, 255);
+}
 
 
 
