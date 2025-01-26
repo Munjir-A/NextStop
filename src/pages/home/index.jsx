@@ -1,7 +1,9 @@
 import {SignedIn, SignedOut, SignInButton, SignUpButton, UserButton, useUser} from "@clerk/clerk-react"
 import Auth from "../auth";
+import welcome from "./welcome";
 function Home(){
     const {user} = useUser();
+
     return(
         <>
             <header>
@@ -18,12 +20,12 @@ function Home(){
             <div className="WelcomeDisplay">
                 <SignedIn>
                     <a>
-                        Welcome {user?.firstName}! Start Tracking Your Internships.
+                    <welcome/> {user?.firstName}! Start Tracking Your Internships.
                     </a>
                 </SignedIn>
                 <SignedOut>
                     <a>
-                        Welcome to NextStop! Start Tracking Your Internships.
+                    <welcome/> to NextStop! Start Tracking Your Internships.
                     </a>
                 </SignedOut>
             </div>
